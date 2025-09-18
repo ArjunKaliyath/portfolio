@@ -1,13 +1,11 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: 'export',
   trailingSlash: true,
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/portfolio-website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio-website/' : '',
+  basePath: '/portfolio-website', // This is all you need for GitHub Pages
 };
 
 export default nextConfig;
