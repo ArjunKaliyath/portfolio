@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/portfolio-website', // This is all you need for GitHub Pages
+  basePath: '/portfolio',
 };
 
 export default nextConfig;
