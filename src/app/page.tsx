@@ -7,6 +7,7 @@ import { Separator } from "@/components/ui/separator";
 import { Github, Linkedin, Mail, ExternalLink, Code, Palette, Database, Globe } from "lucide-react";
 
 export default function Home() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
